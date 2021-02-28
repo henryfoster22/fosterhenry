@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../styles.css">
+  <title> Portfolio </title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body style="background-color: white;">
+
+<div class="block1">
+  <div class="ontopCNV">
+    <p id="block2Title"> HENRY FOSTER<blink>.</blink> </p>
+    <p style="color: white;"> Web Portfolio </p>
+
+  </div>
+
+  <div class="canvasDivHolder">
+    <canvas id="cnv"></canvas>
+    <script src="script2.js"></script>
+  </div>
+</div>
+
+<div class="blockSocials">
+  <div class="socialsHolder">
+    <a href="https://www.linkedin.com/in/henry-foster-0ab01b174/">
+      <img id="socialIcons" src="../assets/linkedin.png">
+    </a>
+    <a href="https://www.fosterhenry.com/">
+      <img id="socialIcons" src="../assets/globe2.png">
+    </a>
+    <a href="https://www.instagram.com/henry.foster/">
+      <img id="socialIcons" src="../assets/instagram.png">
+    </a>
+    <a href="https://github.com/henryfoster22">
+      <img id="socialIcons" src="../assets/github.png">
+    </a>
+  </div>
+</div>
+
+<div class="blockDeeds">
+  <p id="deeds"> henryfoster@me.com </p>
+  <p id="deeds"> 07756674007 </p>
+</div>
+
+
+<div class="block2">
+  <div class="websiteHolder">
+    <div class="photoHolderLeft">
+      <img data-aos="fade-right" class="photoSectionPadding" id="athens" src="../assets/test.jpg">
+      <img data-aos="fade-right" class="photoSectionPadding" id="third" src="../assets/test.jpg">
+    </div>
+    <div class="photoHolderRight">
+      <br><br><br>
+      <div data-aos="fade-left" class="photoSectionPadding" id="photoDesc">
+        <div class="blockTitleHolder">
+          About Me
+        </div>
+        <div id="colourUnderline"></div>
+        <p> Hello! I'm a postgrad Computer Science student who has a passion is Web Development! </p>
+       </div>
+      <img data-aos="fade-left" class="photoSectionPadding" id="balcony" src="../assets/me_wallpaper.jpg">
+    </div>
+  </div>
+</div>
+
+<div class="block25">
+  <div class="websiteHolder">
+    <div data-aos="fade-right" class="blockTitleHolder">
+      Projects
+    </div>
+    <div data-aos="fade-right" id="colourUnderline"></div>
+    <div class="navProjects">
+      <a style="cursor: pointer;" onclick="showAll()">All</a>
+      <a style="cursor: pointer;" onclick="showUni()">University</a>
+      <a style="cursor: pointer;" onclick="showPersonal()">Personal</a>
+    </div>
+    <br>
+    <div class="projectsHolder">
+
+      <div class="flexWrap">
+
+        <div data-aos="fade-up" id="personal" class="projectIndiv">
+
+          <div class="projectPhotoHolder">
+            <img id="photoFill" src="../assets/easyIT.png">
+          </div>
+          <div class="projectDesc">
+            <p id="category"> Personal </p>
+            <p id="title"><b> EasyIT </b></p>
+          </div>
+
+        </div>
+
+        <div data-aos="fade-up" id="university" class="projectIndiv">
+
+          <div class="projectPhotoHolder">
+            <img id="photoFill" src="../assets/OC.png">
+          </div>
+          <div class="projectDesc">
+            <p id="category"> University </p>
+            <p id="title"><b> Origin Conferences WCMS </b></p>
+          </div>
+
+        </div>
+
+        <div data-aos="fade-up" id="personal" class="projectIndiv">
+
+          <div class="projectPhotoHolder">
+            <img id="photoFill" src="../assets/oldP.png">
+          </div>
+          <div class="projectDesc">
+            <p id="category"> Personal </p>
+            <p id="title"><b> Old Portfolio </b></p>
+          </div>
+
+        </div>
+
+        <div data-aos="fade-up" id="personal" class="projectIndiv">
+
+          <div class="projectPhotoHolder">
+            <img id="photoFill" src="../assets/WIP.png">
+          </div>
+          <div class="projectDesc">
+            <p id="category"> Personal </p>
+            <p id="title"><b> Work in progress </b></p>
+          </div>
+
+        </div>
+
+        <div data-aos="fade-up" id="personal" class="projectIndiv">
+
+          <div class="projectPhotoHolder">
+            <img id="photoFill" src="../assets/WIP.png">
+          </div>
+          <div class="projectDesc">
+            <p id="category"> Personal </p>
+            <p id="title"><b> Work in progress </b></p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="block3">
+  <div class="websiteHolder">
+    <div data-aos="fade-right" class="blockTitleHolder">
+      Curriculum Vitea Details
+    </div>
+    <div data-aos="fade-right" id="colourUnderline"></div>
+    <p data-aos="fade-right" style="color:white;"> Below you will find information found on my CV. This includes Qualifications,
+    Skills & Experience and Interests </p>
+  </div>
+</div>
+
+<div class="block4">
+  <div class="websiteHolder">
+    <div data-aos="fade-right" class="blockTitleHolder">
+      Qualifications
+    </div>
+    <div data-aos="fade-right" id="colourUnderline"></div>
+    <div data-aos="zoom-in" class="flexContainer">
+      <div class="QualBlock">
+        <div class="YellowBlock">
+          <img id="qualImg" src="../assets/hat.png">
+          <div class="yellowTxtHolder">
+            2:1 Bachelor's Degree in Computer Science
+          </div>
+        </div>
+        <div class="ScrollBlock">
+          <img id="qualImg" src="../assets/hat.png">
+          <div class="yellowTxtHolder">
+            Graduated in 2020 from The University of Exeter
+          </div>
+        </div>
+      </div>
+
+      <div class="QualBlock">
+        <div class="YellowBlock">
+          <img id="qualImg" src="../assets/test.png">
+          <div class="yellowTxtHolder">
+            3 A-Levels
+            Maths, Further Maths, Physics
+          </div>
+        </div>
+        <div class="ScrollBlock">
+          <img id="qualImg" src="../assets/test.png">
+          <div class="yellowTxtHolder">
+            Completed at Dr Challoner's Grammar School in 2017
+          </div>
+        </div>
+      </div>
+
+      <div class="QualBlock">
+        <div class="YellowBlock">
+          <img id="qualImg" src="../assets/books.png">
+          <div class="yellowTxtHolder">
+            11 GCSE's
+          </div>
+        </div>
+        <div class="ScrollBlock">
+          <img id="qualImg" src="../assets/hat.png">
+          <div class="yellowTxtHolder">
+            Completed at Dr Challoner's Grammar School in 2015
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="block5">
+  <div class="websiteHolder">
+    <div data-aos="fade-right" class="blockTitleHolder">
+      Skills & Experience
+    </div>
+    <div data-aos="fade-right" id="colourUnderline"></div>
+
+
+    <div class="SoEBlock">
+      <div data-aos="fade-right" class="SoELeft">
+        <p id="text">Current</p>
+      </div>
+      <div data-aos="fade-left" class="SoERight">
+        <p id="text"> Confident programmer in various languages such as Java and Python along with web
+development languages (HTML, CSS, PHP, JavaScript, SQL). Also, familiar with Haskell,
+Prolog, Golang and OpenGL. All gained through University modules along with experience
+in database management.
+</p>
+      </div>
+    </div>
+
+
+    <hr id="textDivider">
+
+
+    <div class="SoEBlock">
+      <div data-aos="fade-right" class="SoELeft">
+        <p id="text">2019</p>
+      </div>
+      <div data-aos="fade-left" class="SoERight">
+        <p id="text"> Subway UK - Senior position in which as ‘keyholder’ I
+conducted store opening and closing and end of day transactions to the bank / safe. I
+developed my teamwork and time management skills to ensure all tasks were completed to
+the required standard by the end of the day.
+</p>
+      </div>
+    </div>
+
+
+    <hr id="textDivider">
+
+
+    <div class="SoEBlock">
+      <div data-aos="fade-right" class="SoELeft">
+        <p id="text">2017</p>
+      </div>
+      <div data-aos="fade-left" class="SoERight">
+        <p id="text"> Young Leader - Training completed through the Scouting Association. Ran
+programmes and activities for Scouts aged 10 to 15, including map-reading, survival skills,
+geo-fencing, camp craft, wide games.
+</p>
+      </div>
+    </div>
+
+
+    <hr id="textDivider">
+
+
+    <div class="SoEBlock">
+      <div data-aos="fade-right" class="SoELeft">
+        <p id="text">2017</p>
+      </div>
+      <div data-aos="fade-left" class="SoERight">
+        <p id="text"> Achieved Duke of Edinburgh Gold Award.
+</p>
+      </div>
+    </div>
+
+
+    <hr id="textDivider">
+
+
+    <div class="SoEBlock">
+      <div data-aos="fade-right" class="SoELeft">
+        <p id="text">2016</p>
+      </div>
+      <div data-aos="fade-left" class="SoERight">
+        <p id="text"> National Citizen Scheme - Included devising and executing a business project and a
+community project as a member of a team. Learned and developed skills of budgeting,
+presenting, selling, team cooperation.
+</p>
+      </div>
+    </div>
+
+
+    <hr id="textDivider">
+
+
+    <div class="SoEBlock">
+      <div data-aos="fade-right" class="SoELeft">
+        <p id="text">2015</p>
+      </div>
+      <div data-aos="fade-left" class="SoERight">
+        <p id="text"> British Red Cross - Basic first aid, gained as part of Duke of Edinburgh Award Scheme.
+</p>
+      </div>
+    </div>
+
+<br>
+
+  </div>
+</div>
+
+<div class="block6">
+  <div class="websiteHolder">
+    <div data-aos="fade-right" class="blockTitleHolder">
+      Interests
+    </div>
+    <div data-aos="fade-right" id="colourUnderline"></div>
+
+    <div class="bigDivWrapper">
+
+      <div class="bDLeft">
+        <p data-aos="fade-right" id="textBox1"> I was an active member of the University of Exeter eSports Society. As Events Manager, I
+organised and ran society events and online tournaments for members to compete in. As
+Captain of the League of Legends eSports team, I managed my team, devising strategies
+and assigning roles for play. We were very successful, being in the top ten of universities.
+ </p>
+ <p data-aos="fade-right" id="textBox1"> Currently I am experimenting and creating my own web projects to fulfil various practical
+purposes and to extend and refine my programming skills. Just like this one!
+
+</p>
+      </div>
+
+      <div class="bDRight">
+        <br><br><br><br><br><br><br><br><br>
+        <p data-aos="fade-left" id="textBox2"> I have recently designed and built my own personal computer.  </p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<div class="blockEnd">
+  <div class="websiteHolder" style="min-height: 20px;">
+    <p id="end"> Henry Foster -  Website Portfolio V.1.0.1 </p>
+  </div>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+
+  function showAll() {
+  var x = document.getElementById("personal");
+  var y = document.getElementById("university");
+  x.style.display = "block";
+  y.style.display = "block";
+}
+
+function showUni() {
+  var x = document.getElementById("personal");
+  var y = document.getElementById("university");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function showPersonal() {
+  var x = document.getElementById("personal");
+  var y = document.getElementById("university");
+  x.style.display = "black";
+  y.style.display = "none";
+}
+
+
+  //var x = document.getElementById("myDIV");
+  //x.style.display = "none";
+</script>
+
+</body>
+
+
+
+</html>

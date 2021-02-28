@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../styles.css">
+  <title> Portfolio </title>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body>
+
+<div class="block1">
+  <!-- <img src="../assets/triangle.png" id="tri" alt="Flowers in Chania"> -->
+  <div class="inner-corners">
+    <div><img class="cornerImage" id="topLeft" src="../assets/corner.png"></div>
+    <div><img class="cornerImage" id="topRight" src="../assets/corner.png"></div>
+    <div><img class="cornerImage" id="botLeft" src="../assets/corner.png"></div>
+    <div><img class="cornerImage" id="botRight" src="../assets/corner.png"></div>
+  </div>
+
+</div>
+<!--
+<div class="topnav" id="myTopnav">
+  <a class="active"> Home </a>
+  <a href="#contact">About Me</a>
+  <a href="projectsDir/Projects">Projects</a>
+  <a href="#contact">Contact</a>
+</div>
+-->
+<div id="nav">
+    <ul>
+        <li><a  class="active" href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Blah</a></li>
+        <li><a href="#">exampl</a></li>
+        <li><a href="#">test2</a></li>
+    </ul>
+</div>
+
+<div class="block2">
+  <!--
+  <div class="headerUpdent" id="whyChooseUs">
+  <p><strong> Why Choose Us </strong></p>
+  </div>
+-->
+</div>
+Featured
+<section class="center slider">
+  <div class="sliderTile">
+    <img src="../assets/LSF.png">
+    <a> Text </a>
+  </div>
+  <div class="sliderTile">
+    <img src="../assets/YT.png">
+    <div class="textHolder">
+    </div>
+  </div>
+  <div class="sliderTile">
+    <img src="../assets/IG.png">
+  </div>
+  <div class="sliderTile">
+    <img src="../assets/FB.png">
+  </div>
+  <div class="sliderTile">
+    <img src="../assets/CoD.png">
+  </div>
+</section>
+
+<div class="bar-splitter">
+
+  <div class="splitLeft">
+    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. </p>
+  </div>
+
+  <div class="splitMid">
+  </div>
+
+  <div class="splitRight">
+  </div>
+
+</div>
+
+<div class="websiteHolder">
+
+
+
+    <div class="circleContainer2">
+      <div class="theText">
+      </div>
+      <pre> test
+      stylesheettes
+      stylesheettes
+      stylesheettes
+    stylesheettes</pre>
+      <div class="circle2"></div>
+      <div class="arc"></div>
+    </div>
+
+
+</div>
+
+
+
+<div class="circleContainer">
+  <div class="theText">
+  </div>
+  <pre> test
+  stylesheettes
+  stylesheettes
+  stylesheettes
+stylesheettes</pre>
+  <div class="circle"></div>
+  <!-- <div class="smallCircle"></div> -->
+</div>
+
+<div class="circleContainer">
+  <div class="theText">
+  </div>
+  <pre> test
+  stylesheettes
+  stylesheettes
+  stylesheettes
+stylesheettes</pre>
+  <div class="circle2"></div>
+  <div class="smallCircle"></div>
+</div>
+
+<div class="circleContainer2">
+  <div class="theText">
+  </div>
+  <pre> test
+  stylesheettes
+  stylesheettes
+  stylesheettes
+stylesheettes</pre>
+  <div class="circle2"></div>
+  <div class="arc"></div>
+</div>
+
+<div class="circleContainer3">
+
+</div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+$(document).on('ready', function() {
+  $(".center").slick({
+    autoplay: true,
+    autoplaySpeed: 10000,
+    dots: true,
+    infinite: true,
+    centerMode: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  });
+});
+</script>
+
+
+</html>
