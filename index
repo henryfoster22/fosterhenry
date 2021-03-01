@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="refresh" content="0; URL=https://www.fosterhenry.com/portfolio" />
+</head>
+<body style="background-color:#eaeaea;">
+
+<div class="hpMain">
+  test
+</div>
+
+<div class="HPSeparationBar">
+
+</div>
+<br><br><br><br>
+
+<div class="websiteHolder">
+
+  <div class="HPGridHolder">
+
+    <a href="portfolio/index2">
+      <div class="HPGridDiv">
+        <img src="assets/BG.jpg" class="HPimages">
+        <div class="bottomBar">
+          <b id="thumbTitle"> Portfolio </b>
+        </div>
+      </div>
+    </a>
+
+    <a href="youtube/index">
+      <div class="HPGridDiv">
+        <img src="assets/sea.jpg" class="HPimages">
+        <div class="bottomBar">
+          <b id="thumbTitle"> YouTube </b>
+        </div>
+      </div>
+    </a>
+
+    <a href="league/index">
+      <div class="HPGridDiv">
+        <img src="assets/CoD.png" class="HPimages">
+        <div class="bottomBar">
+          <b id="thumbTitle"> LolApi </b>
+        </div>
+      </div>
+    </a>
+
+      <div class="HPGridDiv">
+        test
+      </div>
+
+  </div>
+
+
+</div>
+
+<a href="portfolio/home"> portfolio </a>
+<a href="youtube/index"> youtube </a>
+<a href="league/index"> league </a>
+
+</body>
+</html>
